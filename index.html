@@ -1,19 +1,112 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>shimaのポートフォリオ</title>
-  </head>
-  <body>
-    <h1>shima</h1>
-    <img src="ひまわり.jpg" alt="ひまわり">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      border-left: 5px solid #007acc;
+      padding-left: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+    .works img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 0.5rem;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>shimaのポートフォリオ</h1>
+    <p>Webデザイナー志望</p>
+  </header>
 
-    <h3>好きな動画</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2wqrYydAiGo?si=k4_viuNO48T38UCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="container">
+    <section id="about">
+      <h2>自己紹介</h2>
+      <p>こんにちは！Webデザイナー志望のshimaです。主にHTML,CSS,JavaScriptを使用したホームページ制作に力を入れております。</p>
+      <p>最近ではWordPressを勉強しており、これから勉強しながらアフィリエイトブログに挑戦したいと考えております。</p>
+    </section>
 
+    <section id="works" class="works">
+      <h2>作品紹介</h2>
+      <ul>
+        <li>
+          <strong>作品1:</strong> ポートフォリオサイト
+          <br>
+          <img src="" alt="ポートフォリオ画像">
+        </li>
+        <li>
+          <strong>作品2:</strong> レスポンシブデザインのブログサイト
+          <br>
+          <img src="" alt="ポートフォリオ画像">
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>スキル・実績</h2>
+      <ul>
+        <li>HTML / CSS / JavaScript / PHP</li>
+        <li>photoshop / Illustrator / YMM4</li>
+        <li>ホームページの制作・公開の経験</li>
+        <li>レスポンシブデザインの導入</li>
+        <li>ロゴ / バナー / 動画制作</li>
+      </ul>
+    </section>
+    <section>
+        <h3>好きな動画</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2wqrYydAiGo?si=k4_viuNO48T38UCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
     <h3>Open Prossessing</h3>
     <iframe src="https://openprocessing.org/sketch/2668391/embed/" width="400" height="400"></iframe>
+    </section>
 
+
+  <footer>
+    <p>&copy; 2025 私のポートフォリオ. All rights reserved.</p>
+  </footer>
   </body>
 </html>
